@@ -3,6 +3,8 @@ export AWS_DEFAULT_REGION=eu-west-1
 
 # Find the Cloudformation templates in aws-cloudformation repository
 # Add this repository under the roles directory in this repository
+This can be done by the command "make roles"
+
 
 # There needs to be a trust relationship between the role and your user account.
 # https://medium.com/@ngocson2vn/how-to-fix-the-error-an-error-occurred-accessdenied-when-calling-the-assumerole-operation-e85f0152daca
