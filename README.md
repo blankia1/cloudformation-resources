@@ -1,4 +1,4 @@
-ansible-galaxy install roles/requirements.yml --force
+ ansible-galaxy install -r roles/requirements.yml --force
 
 # Docker in Production using AWS CloudFormation Resources Playbook
 
