@@ -1,3 +1,5 @@
+ansible-galaxy install roles/requirements.yml --force
+
 # Docker in Production using AWS CloudFormation Resources Playbook
 
 ## Introduction
