@@ -1,9 +1,9 @@
 # You can specify git tag, commit or branch for the version property
-- src: https://github.com/docker-production-aws/aws-cloudformation.git
+- src: https://github.com/blankia1/aws-cloudformation.git
   scm: git
   version: master
   name: aws-cloudformation
-- src: https://github.com/docker-production-aws/aws-sts.git
+- src: https://github.com/blankia1/aws-sts.git
   scm: git
   version: master
   name: aws-sts
