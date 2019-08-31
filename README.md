@@ -1,5 +1,21 @@
  ansible-galaxy install -r roles/requirements.yml --force
 
+# There needs to be a trust relationship between the role and your user account.
+# https://medium.com/@ngocson2vn/how-to-fix-the-error-an-error-occurred-accessdenied-when-calling-the-assumerole-operation-e85f0152daca
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "ec2.amazonaws.com",
+        "AWS": "arn:aws:iam::003342916324:user/blankia"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
+
 # Docker in Production using AWS CloudFormation Resources Playbook
 
 ## Introduction
