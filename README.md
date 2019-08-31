@@ -1,4 +1,5 @@
  ansible-galaxy install -r roles/requirements.yml --force
+export AWS_DEFAULT_REGION=eu-west-1
 
 # Find the Cloudformation templates in aws-cloudformation repository
 # Add this repository under the roles directory in this repository
